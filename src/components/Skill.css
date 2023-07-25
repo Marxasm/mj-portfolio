@@ -1,0 +1,33 @@
+.skill-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  width: 100px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.bar-container {
+  flex: 1;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background-color: #A1CCD1;
+  transition: width 1s ease-out; /* Animation for width change */
+}
+
+.bar-text {
+  line-height: 20px;
+  text-align: right;
+  color: #fff;
+  padding-right: 5px;
+}
+
