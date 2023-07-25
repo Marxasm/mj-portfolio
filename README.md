@@ -1,4 +1,4 @@
-# Perosnal portfolio website [ ReactJS and Tailwind css]
+# Personal portfolio website [ ReactJS and Tailwind css]
 
 This README file provides an overview of my portfolio project built with ReactJS and Tailwind CSS. It includes information about the project, installation instructions, and details about the libraries used.
 
@@ -12,26 +12,6 @@ This portfolio project is a responsive web application built using ReactJS and T
 
 The project incorporates various features and components to enhance the user experience, including background effects, icons, email functionality, and typed animations. The ReactJS framework allows for efficient component-based development, while Tailwind CSS provides a utility-first approach to styling.
 
-## Installation
-
-To run the portfolio project locally, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Navigate to the project directory using the command line or terminal.
-3. Install the required dependencies by running the following command:
-
-```bash
-npm install
-```
-
-4. Once the installation is complete, you can start the development server using the following command:
-
-```bash
-npm start
-```
-
-5. Open your web browser and visit `http://localhost:3000` to view the portfolio project.
-
 ## Libraries Used
 
 The following libraries were used in the development of this project:
@@ -44,11 +24,6 @@ The following libraries were used in the development of this project:
 
 - `@emailjs/browser`: Enables sending emails directly from the portfolio project.
   - Installation command: `npm install @emailjs/browser`
-
-
-## Contributing
-
-Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, please submit a pull request. Alternatively, you can open an issue to report any problems or provide feedback. 
 
 ## License
 
