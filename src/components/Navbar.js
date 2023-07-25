@@ -78,25 +78,25 @@ function Navbar() {
                     {showMenu && (
                         <ul className="flex flex-col font-[400] text-black dark:font-[300] text-custom-20 gap-[2rem] md:gap-[3rem] lg:gap-2rem absolute top-[4.5rem] right-[3.5rem] z-10 bg-[#fdd6cf] p-4 shadow-md rounded">
                             <a
-                                className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
+                                className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#6297c5;] font-[400]"
                                 onClick={() => scrollToComponent('skills')}
                             >
                                 Skills
                             </a>
                             <a
-                                className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
+                                className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#6297c5;] font-[400]"
                                 onClick={() => scrollToComponent('experience')}
                             >
                                 Experience
                             </a>
                             <a
-                                className="tracking-wide hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
+                                className="tracking-wide hover:after:bg-black dark:hover:after:bg-[#6297c5;] font-[400]"
                                 onClick={() => scrollToComponent('projects')}
                             >
                                 Projects
                             </a>
                             <a
-                                className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
+                                className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#6297c5;] font-[400]"
                                 onClick={() => scrollToComponent('contact')}
                             >
                                 Contact
