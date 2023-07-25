@@ -3,10 +3,10 @@ import { AiFillGithub } from 'react-icons/ai';
 
 function Projects({image, name, live, source, desc}) {
   return (
-    <div className='flex flex-col-reverse gap-20 mt-12 sm:flex-row sm:items-center sm:justify-between'>
+    <div className='flex flex-col-reverse gap-10 mt-12 mb-20 sm:flex-row sm:items-center sm:justify-between'>
         <div className='w-full sm:w-1/2'>
             <div className='flex flex-col gap-2'>
-                <h1 className='text-xl font-bold text-[#6FEDD6]'>{name}</h1>
+                <h1 className='text-xl font-bold text-[#6297c5]'>{name}</h1>
                 <p className='sm:text-justify font-light  leading-loose text-sm sm:text-base'>{desc}</p>
                 <div className='flex gap-5 mt-7'>
                     <a href={live} target='_blank' rel='noreferrer' className='flex items-center bg-[#9BABB8] text-white px-4 py-2 rounded-md text-sm'>

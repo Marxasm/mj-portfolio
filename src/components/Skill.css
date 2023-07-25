@@ -1,27 +1,24 @@
-.skill-bar {
-  display: flex;
-  align-items: center;
+.skill-bar-container {
   margin-bottom: 10px;
 }
 
-.skill-name {
-  width: 100px;
+.skill-bar-name {
+  margin-bottom: 5px;
   font-weight: bold;
-  margin-right: 10px;
 }
 
-.bar-container {
-  flex: 1;
+.skill-bar {
+  width: 100%;
   height: 20px;
-  background-color: #ddd;
+  background-color: #f0f0f0;
   border-radius: 5px;
-  overflow: hidden;
 }
 
-.bar {
+.skill-bar-fill {
   height: 100%;
-  background-color: #A1CCD1;
-  transition: width 1s ease-out; /* Animation for width change */
+  border-radius: 5px;
+  background-color: #6297c5;
+  transition: width 0.5s ease;
 }
 
 .bar-text {
@@ -31,3 +28,26 @@
   padding-right: 5px;
 }
 
+/* For screens 768px and larger (e.g., tablets and desktops) */
+@media (min-width: 768px) {
+  .skill-bar-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Divide the skill bars into two columns */
+  .skill-bar {
+    width: calc(50% - 10px); /* Account for the margin between the columns */
+  }
+}
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 767px) {
+  .skill-bar-container {
+    display: block;
+  }
+
+  .skill-bar {
+    width: 100%;
+  }
+}

@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import Skillbar from './Skillbar';
-import './Skill.css'; // Import the CSS file for styling
+ // Import the CSS file for styling
 
 
 const Skillbars = () => {
@@ -27,8 +27,11 @@ const Skillbars = () => {
   ];
 
   return (
-
-    <div id="skills" className="sm:pl-[5rem] sm:p-8 p-16 mt-4 sm:mt-0 sm:px-4 sm:py-2 grid grid-cols-2 gap-10 mb-16">
+  <div id="skills" className="sm:pl-[5rem] sm:p-2 p-4 mt-20 mb-20 sm:mt-0 sm:px-4 sm:py-2">
+      <div>
+          <h1 className='w-72 mb-4 tracking-wider font-semibold text-2xl sm:text-2xl md:text-2xl lg:text-2.5xl sm:mb-4 sm:w-full'>My Skills</h1>
+      </div>
+    <div className="grid grid-cols-2 gap-10">
       <div className="sm:mr-16">
         <h1 className="mb-4">IT Skills</h1>
         {ITSkills.map((skillData, index) => (
@@ -42,6 +45,7 @@ const Skillbars = () => {
         ))}
       </div>
     </div>
+  </div>
   );
 };
 
