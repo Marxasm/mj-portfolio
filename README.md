@@ -4,7 +4,7 @@ This README file provides an overview of my portfolio project built with ReactJS
 
 ## Online Link
 
-An online version of the portfolio project is available at https://rimshadev-portfolio.vercel.app/. You can visit this link to see the project in action and explore its features.
+An online version of the portfolio project is available at https://mj-portfolio-eight.vercel.app/. You can visit this link to see the project in action and explore its features.
 
 ## Project Overview
 
@@ -24,6 +24,8 @@ The following libraries were used in the development of this project:
 
 - `@emailjs/browser`: Enables sending emails directly from the portfolio project.
   - Installation command: `npm install @emailjs/browser`
+ 
+  - '@
 
 ## License
 
