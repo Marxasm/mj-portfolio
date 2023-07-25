@@ -39,7 +39,7 @@ function Main({source}) {
                             <img
                                 src={myImage}
                                 alt="main"
-                                className="w-[70%] h-[50%] min-h-[100px] min-w-[100px] tm:h-[36px] tm:mt-[200px] sm:min-h-[100px] sm:min-w-[100px] sm:ml-[30px]"
+                                className="h-[50%] min-h-[100px] min-w-[100px] tm:h-[36px] tm:mt-[200px] sm:min-h-[100px] sm:min-w-[100px] sm:ml-[30px]"
                             />
                         </div>
 
