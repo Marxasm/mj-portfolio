@@ -1,10 +1,10 @@
 // App.js
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Skillbar from './Skillbar';
  // Import the CSS file for styling
 
-
 const Skillbars = () => {
+
   const ITSkills = [
     { skill: 'HTML', percentage: 90 },
     { skill: 'CSS', percentage: 70 },
@@ -34,14 +34,16 @@ const Skillbars = () => {
     <div className="grid grid-cols-2 gap-10">
       <div className="sm:mr-16">
         <h1 className="mb-4">IT Skills</h1>
+        <div className="scroll-animation-trigger"></div>
         {ITSkills.map((skillData, index) => (
-          <Skillbar key={index} skill={skillData.skill} percentage={skillData.percentage} />
+          <Skillbar key={index} skill={skillData.skill} percentage={skillData.percentage}/>
         ))}
       </div>
       <div className="sm:mr-16">
         <h1 className="mb-4">General Skills</h1>
+        <div className="scroll-animation-trigger"></div>
         {GenSkills.map((skillData, index) => (
-          <Skillbar key={index} skill={skillData.skill} percentage={skillData.percentage} />
+          <Skillbar key={index} skill={skillData.skill} percentage={skillData.percentage}/>
         ))}
       </div>
     </div>

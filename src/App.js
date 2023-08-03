@@ -6,7 +6,6 @@ import Projects from './components/Projects';
 import Skillbar from './components/Skillbars';
 import BackgroundView from './Layout/BackgroundView';
 
-
 function App() {
 
   return (

@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.3",
     "@react-spring/web": "^9.7.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,6 +16,7 @@
     "react-icons": "^4.10.1",
     "react-particles": "^2.11.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
     "sweetalert2": "^11.7.18",
     "tsparticles": "^2.11.0",
     "tsparticles-plugin-emitters": "^2.11.0",

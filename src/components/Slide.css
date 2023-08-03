@@ -1,0 +1,12 @@
+.animated-content {
+    transition: transform 0.5s ease; /* Adjust timing as needed */
+    transform: translateY(0);
+  }
+  
+  .MuiSlide-entering {
+    transform: translateY(100%);
+  }
+  
+  .MuiSlide-entered {
+    transform: translateY(0);
+  }
